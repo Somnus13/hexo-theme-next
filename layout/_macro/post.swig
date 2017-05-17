@@ -91,7 +91,7 @@
               <span class="post-meta-divider">|</span>
             {% endif %}
               <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
+                <i class="fa fa-tags"></i>
               </span>
               {% if theme.post_meta.item_text %}
                 <span class="post-meta-item-text">{{ __('post.in') }}</span>
