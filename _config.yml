@@ -45,7 +45,7 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  categories: /categories
+  #categories: /categories
   about: /about
   archives: /archives
   tags: /tags
@@ -392,6 +392,15 @@ facebook_comments_plugin:
   num_of_posts: 10  # min posts num is 1
   width: 100%       # default width is 550px
   scheme: light     # default scheme is light (light or dark)
+
+# Gitment comments
+gitment:
+  enable: true
+  owner: Somnus13
+  repo: Somnus13.github.io
+  client_id: 9f61826363c389dbcc6d
+  client_secret: 0e92403e65a3d631d1c0df2e1537bd6e7cca941b
+  lazy: false
 
 # VKontakte API Support.
 # To get your AppID visit https://vk.com/editapp?act=create
