@@ -1,8 +1,8 @@
 {% if theme.gitment.enable %}
-   {% set owner = theme.gitment.githubID %}
+   {% set owner = theme.gitment.owner %}
    {% set repo = theme.gitment.repo %}
-   {% set cid = theme.gitment.ClientID %}
-   {% set cs = theme.gitment.ClientSecret %}
+   {% set cid = theme.gitment.client_id %}
+   {% set cs = theme.gitment.client_secret %}
    <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
    <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
    {% if not theme.gitment.lazy %}
