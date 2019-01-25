@@ -396,11 +396,14 @@ facebook_comments_plugin:
 # Gitment comments
 gitment:
   enable: true
+  mint: true
+  count: true
+  lazy: true
+  cleanly: false
   owner: Somnus13
   repo: Somnus13.github.io
   client_id: 9f61826363c389dbcc6d
   client_secret: 0e92403e65a3d631d1c0df2e1537bd6e7cca941b
-  lazy: false
 
 # VKontakte API Support.
 # To get your AppID visit https://vk.com/editapp?act=create
